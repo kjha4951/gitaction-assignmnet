@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "bucket" {
-  bucket = var.bucket_name
+  bucket = "batch8"
   acl    = "private"
-  region = var.region
+  region = "us-east-1"
 }
