@@ -21,7 +21,7 @@ jobs:
         with:
           Aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID}}
           Aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY}}
-          AWS Session Token: ${{ secrets.AWS_SESSION_TOKEN}}
+          AWS-Session-Token: ${{ secrets.AWS_SESSION_TOKEN}}
           aws-region: us-east-1
 
       # - name: Set up Terraform
