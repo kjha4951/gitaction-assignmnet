@@ -28,4 +28,4 @@ jobs:
         run: terraform init
 
       - name: Terraform Destroy
-        run: terraform destroy -auto-approve
+        run: terraform destroy -auto-approve -var "bucket_name=my-s3-bucket" -var "region=us-east-1"

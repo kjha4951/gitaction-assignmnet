@@ -22,4 +22,4 @@ on:
         run: terraform init
 
       - name: Terraform Apply
-        run: terraform apply -auto-approve
+        run: terraform apply -auto-approve -var "bucket_name=my-s3-bucket" -var "region=us-east-1"
