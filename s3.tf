@@ -1,3 +1,3 @@
 resource "aws_s3_bucket" "bucket" {
-  bucket = "batch8"
+  bucket = "batch8-komal"
 }
