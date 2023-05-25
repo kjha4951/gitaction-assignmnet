@@ -1,4 +1,8 @@
 resource "aws_s3_bucket" "bucket" {
-  key="../tfstate"
+  # key="../tfstate"
   bucket = "batch8-komal"
+   tags = {
+    owner   = var.owner
+    name    = var.name
+  }
 }
